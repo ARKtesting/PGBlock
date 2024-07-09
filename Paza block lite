@@ -1,0 +1,56 @@
+# Shadowrocket: 2024-07-09 20:09:25
+[General]
+private-ip-answer = false
+include = default.conf
+ipv6 = true
+yaml = true
+bypass-system = true
+udp-policy-not-supported-behaviour = REJECT
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com
+tun-excluded-routes = 239.255.255.250/32
+dns-server = system
+
+[Rule]
+DOMAIN-SUFFIX,testflight.apple.com,PROXY
+DOMAIN-SUFFIX,appsflyersdk.com,REJECT
+DOMAIN-SUFFIX,metrics.icloud.com,DIRECT
+DOMAIN-SUFFIX,smp-paymentservices.apple.com,DIRECT
+DOMAIN-SUFFIX,gateway.icloud.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,api-edge.apps.apple.com,DIRECT
+DOMAIN-SUFFIX,api-edge.apps.apple.com,DIRECT
+DOMAIN-SUFFIX,apps.itunes-nocookie.com,DIRECT
+DOMAIN-SUFFIX,apps.mzstatic.com,DIRECT
+DOMAIN-SUFFIX,smp-device-content.apple.com,DIRECT
+DOMAIN-SUFFIX,setup.icloud.com,DIRECT
+DOMAIN-SUFFIX,xp.apple.com,DIRECT
+DOMAIN-SUFFIX,configuration.ls.apple.com,DIRECT
+DOMAIN-SUFFIX,amp-api-edge.apps.apple.com,DIRECT
+DOMAIN-SUFFIX,init.push.apple.com,DIRECT
+DOMAIN-SUFFIX,amp-api-search-edge.apps.apple.com,DIRECT
+DOMAIN-SUFFIX,pancake.apple.com,DIRECT
+DOMAIN-SUFFIX,amp-api.apps.apple.com,DIRECT
+DOMAIN-SUFFIX,is1-ssl.mzstatic.com,DIRECT
+DOMAIN-SUFFIX,mesu.apple.com,DIRECT
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN-SUFFIX,analytics.nianticlabs.com,REJECT
+DOMAIN-SUFFIX,ess.apple.com,DIRECT
+DOMAIN-SUFFIX,iphone-ld.apple.com,DIRECT
+DOMAIN-SUFFIX,gsa.apple.com,DIRECT
+DOMAIN-SUFFIX,time.apple.com,DIRECT
+DOMAIN-SUFFIX,gsp-ssl.ls.apple.com,DIRECT
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+DOMAIN-SUFFIX,akadns.net,REJECT
+DOMAIN-SUFFIX,apple-dns.net,REJECT
+DOMAIN-SUFFIX,apple-dns.net,REJECT
+DOMAIN-SUFFIX,mzstatic.com,REJECT
+DOMAIN-SUFFIX,icloud.com,REJECT
+DOMAIN-SUFFIX,edgekey.net,REJECT
+DOMAIN-SUFFIX,apple.com,REJECT
+
+[Host]
+localhost = 127.0.0.1
+
+[URL Rewrite]
+^https?://(www.)?g.cn https://www.google.com 302
+^https?://(www.)?google.cn https://www.google.com 302
