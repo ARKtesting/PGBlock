@@ -9,6 +9,13 @@
 *.cl2.apple.com
 *.gsp10-ssl.apple.com
 *.gsas.apple.com
+gs-loc.apple.com
+apple.com
+apple-dns.net
+edgekey.net
+mzstatic.com
+akamai.net
+akadns.net
 
 # NextDNS Native Tracking Protection - Apple
 acfeedbackws.icloud.com
