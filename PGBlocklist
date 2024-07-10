@@ -1,3 +1,9 @@
+[Adblock Plus]
+! Title: Paza's giga iTools blocklist
+! Description: Paza's DNS Cloak Guide with Apple Telemetry Blacklist
+! Homepage: https://drive.google.com/file/d/1TZugKev4v9mz70WIZO4wXaSClYSbcx4F/view
+!
+
 # Allow Apple imessage & services
 @@push.apple.com
 @@gsp-ssl.ls.apple.com
