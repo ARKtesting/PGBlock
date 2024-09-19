@@ -1,1 +1,17 @@
+[Adblock Plus]
+! Title: Sideloading block list
+! Description: Block list to allow revoke certs
+! Homepage: https://docs.google.com/document/d/1QseJR-ZTGJO0q99l9eh1-wsR-tldtbsM6rbsti08EDQ
+!
 
+# Block
+ocsp.apple.com
+ocsp2.apple.com
+valid.apple.com
+crl.apple.com
+certs.apple.com
+appattest.apple.com
+vpp.itunes.apple.com
+
+# Allow
+@@app.localhost.direct
