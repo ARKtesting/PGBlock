@@ -3,7 +3,7 @@
 ! Description: Paza's DNS Cloak Guide with Apple Telemetry Blacklist
 ! Homepage: https://drive.google.com/file/d/1TZugKev4v9mz70WIZO4wXaSClYSbcx4F/view
 ! Version 1.1
-! Last modified: 2024.08.20
+! Last modified: 2024.07.09
 
 # Allow Apple imessage & services
 @@push.apple.com
